@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import joblib
 
-print("Loading dataset is good...")
+print("Loading dataset is good......")
 data = load_iris()
 X = pd.DataFrame(data.data, columns=data.feature_names)
 y = pd.DataFrame(data.target, columns=['target'])
